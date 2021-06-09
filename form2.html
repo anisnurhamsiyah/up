@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form 2</title>
+	<style type="text/css">
+		body{
+			font-family: helvetica;
+			background-image:url(bg1.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<a href="helloworld.html"><img src="close.png" width="40" align="right"></a>
+<h3>Form lanjutan.</h3>
+Contoh:
+<br>
+
+<form>
+<label for="username">Username :</label>
+<input type="text" id="username">
+<br>
+<label for="password">Password :</label>
+<input type="password" id="password">
+<br>
+<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Laki-laki</label>
+<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Perempuan</label>
+<br>
+<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+<input type="checkbox" id="ngoding"><label for=" ngoding">ngoding</label>
+<br>
+<textarea></textarea>
+<br>
+<select>
+	<option>Jakarta</option>
+	<option>Jawa Barat</option>
+	<option>Jawa Tengah</option>
+	<option>Jawa Timur</option>
+	<option>Kalimantan</option>
+</select>
+<br>
+
+<button type="submit"> Kirim</button>
+
+</form>
+<br>
+<h3>Versi Rapi :</h3>
+<table border="0" cellspacing="0" cellpadding="10">
+	<tr>
+		<td><label for="username">Username :</label></td>
+		<td colspan="2"><input type="text" id="username"></td>
+	</tr>
+	<tr>
+		<td><label for="password">Password :</label></td>
+		<td colspan="2"><input type="password" id="password"></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Laki-laki</label><input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Perempuan</label></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center"><input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label><input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label><input type="checkbox" id="ngoding"><label for=" ngoding">ngoding</label></td>
+	</tr>
+	<tr>
+		<td>Combo Box :</td>
+		<td colspan="2"><textarea></textarea></td>
+	</tr>
+	<tr>
+		<td>Textarea :</td>
+		<td colspan="2">
+			<select>
+				<option>Jakarta</option>
+				<option>Jawa Barat</option>
+				<option>Jawa Tengah</option>
+				<option>Jawa Timur</option>
+				<option>Kalimantan</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center"><button type="submit"> Kirim</button></td>
+		
+	</tr>
+</table>
+</body>
+</html>

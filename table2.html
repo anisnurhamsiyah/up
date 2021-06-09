@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Table 2</title>
+	<style type="text/css">
+		body{
+			font-family: helvetica;
+			background-image:url(bg7.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<a href="helloworld.html"><img src="close.png" width="40" align="right"></a>
+<h1>Menggabungkan Sel Tabel dan Menambahkan Warna pada Sel dan Baris</h1>
+Atribut yang digunakan untuk menggabungkan sel tabel adalah rowspan dan colspan serta untuk menambahkan warna pada sel dan baris, kita bisa menambahkan atribut bgcolor di dalam tag td (untuk sel) atau tr (untuk baris).:
+
+<ul>
+	<li>rowspan untuk menggbungkan baris;</li>
+	<li>colspan untuk mebggabungkan kolom.</li>
+</ul>
+
+Atribut ini bisa kita berikan kepada tag td atau th.
+<br>
+Contoh:
+<table border="2" cellspacing="0" cellpadding="10">
+	<tr>
+		<td rowspan="2" bgcolor="yellow">Bulan</td>
+		<td colspan="2" bgcolor="lime">Hasil Panen</td>
+	</tr>
+	<tr>
+		<td bgcolor="grey">Padi</td>
+		<td bgcolor="lightblue">Jagung</td>
+	</tr>
+	<tr>
+		<td>Januari</td>
+		<td>500kg</td>
+		<td>400kg</td>
+	</tr>
+	<tr>
+		<td>Februari</td>
+		<td>600kg</td>
+		<td>450kg</td>
+	</tr>
+	<tr>
+		<td>Maret</td>
+		<td>550kg</td>
+		<td>600kg</td>
+	</tr>
+</table>
+</body>
+</html>

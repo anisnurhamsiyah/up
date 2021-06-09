@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Table 1</title>
+	<style type="text/css">
+		body{
+			font-family: helvetica;
+			background-image:url(bg4.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<a href="helloworld.html"><img src="close.png" width="40" align="right"></a>
+<h1>Tag untuk Membuat Tabel di HTML</h1>
+Ada beberapa tag yang harus diingat untuk membuat tabel di HTML:
+
+<ul>
+<li> Tag table untuk membungkus tabelnya</li>
+<li> Tag thead untuk membungkus bagian kepala tabel</li>
+<li> Tag tbody untuk membungkus bagian body dari tabel</li>
+<li> Tag tr (tabel row) untuk membuat baris</li>
+<li> Tag td (table data) untuk membuat sel</li>
+<li> Tag th (table head) untuk membuat judul pada header</li>
+</ul>
+
+Tag yang paling penting untuk diingat adalah tag table, tr, dan td. Sementara tag yang lain adalah tambahan (opsional), boleh digunakan boleh tidak.Contoh tanpa border: 
+<br>
+<table>
+	<tr>
+		<td>Baris 1 Kolom 1</td>
+		<td>Baris 1 Kolom 2</td>
+	</tr>
+	<tr>
+		<td>Baris 2 Kolom 1</td>
+		<td>Baris 2 Kolom 2</td>
+	</tr>
+</table>
+<h2>Mengatur Jarak Sel dengan Cellpadding dan Cellspacing</h2>
+Atribut cellpadding adalah atribut untuk mengatur jarak teks dengan garis di dalam sel.
+
+Atribut ini dapat kita berikan kepada tag table.
+
+Contoh dengan menambahkan border, cellspacing, dan cellpadding : 
+<br>
+<table border="2" cellspacing="0" cellpadding="10">
+	<tr>
+		<td>Baris 1 Kolom 1</td>
+		<td>Baris 1 Kolom 2</td>
+	</tr>
+	<tr>
+		<td>Baris 2 Kolom 1</td>
+		<td>Baris 2 Kolom 2</td>
+	</tr>
+</table>
+<h2>Menambah Head pada tabel</h2>
+<table border="2" cellspacing="0" cellpadding="10">
+	<thead>
+		<tr>
+			<th></th>
+			<td>Kolom 1</td>
+			<td>Kolom 2</td>
+		</tr>		
+	</thead>
+	<tbody>
+		<tr>
+			<th>Baris 1</th>
+			<td>Baris 1 Kolom 1</td>
+			<td>Baris 1 Kolom 2</td>
+		</tr>
+		<tr>
+			<th>Baris 2</th>
+			<td>Baris 2 Kolom 1</td>
+			<td>Baris 2 Kolom 2</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

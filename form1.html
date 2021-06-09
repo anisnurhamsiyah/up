@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form 1</title>
+	<style type="text/css">
+		body{
+			font-family: helvetica;
+			background-image:url(bg6.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<a href="helloworld.html"><img src="close.png" width="40" align="right"></a>
+<h1>Cara Membuat Form di HTML</h1>
+Form di HTML dapat kita buat dengan tag form.Tag ini memiliki beberapa atribut yang harus diberikan, seperti:
+<ul>
+	<li> Action untuk menentukan akasi yang akan dilakukan saat data dikirim;</li>
+	<li> Method metode pengiriman data.</li>
+</ul>
+<h1>Elemen Form</h1>
+<ul>
+	<li>Input, digunakan untuk menginputkan sesuatu. Tag input terdiri dari text, password, radio, checkbox</li>
+	<li>Textarea, digunakan untuk mengisikan komentar panjang</li>
+	<li>Select, digunakan untuk dropdown atau combobox</li>
+	<li>Button, tombol untuk mengirim data</li>
+	<li>Label, untuk menandai sebuah elemen input</li>
+</ul>
+Contoh:
+<br>
+
+<form>
+<label for="username">Username :</label>
+<input type="text" id="username">
+<br>
+<label for="password">Password :</label>
+<input type="text" id="password">
+<br>
+<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Laki-laki</label>
+<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Perempuan</label>
+<br>
+<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+<input type="checkbox" id="ngoding"><label for=" ngoding">ngoding</label>
+<br>
+<button type="submit"> Kirim</button>
+</form>
+
+</body>
+</html>

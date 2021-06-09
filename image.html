@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Image</title>
+	<style type="text/css">
+		body{
+			font-family: helvetica;
+			background-image:url(bg.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<a href="helloworld.html"><img src="close.png" width="40" align="right"></a>
+<h1>Menambahkan Gambar di HTML</h1>
+<p>
+Gambar dapat kita tambakan di HTML dengan menggunakan tag img. Tag ini memiliki atribut wajib, yakni src, contoh:
+</p>
+<img src="logo.png" width="200">
+<p>
+Jika kita tidak mengisi atribut src, maka gambar tidak akan ditampilkan. Alamat URL gambar pada atribut src dapat berupa URL maupun alamat path. Lalu tag img harus ditutup dengan menambahkan garis miring. Menuliskan langsung nama file dari gambar karena gambar berada di dalam folder yang sama dengan file HTML. Apabila file gambarnya tersimpan di folder yang berbeda, maka kita hanya perlu menuliskan alamat path-nya. Jika kita menggunakan gambar dari website lain kita harus menuliskan alamat URL lengkap dari gambar tersebut.
+</p>
+
+<h2>Atribut untuk Tag img</h2>
+Ada beberapa atribut yang sering digunakan pada tag img:
+<ul>
+	<li> alt untuk teks alternatif untuk gambar;</li>
+	<li> width untuk menentukan lebar gambar;</li>
+	<li> height untuk menentukan tinggi gambar;</li>
+	<li> style untuk menentukan style CSS untuk gambar.</li>
+	<li> title untuk menentukan nama dari gambar</li>
+</ul>
+<br>
+
+<h3>1. Atribut alt</h3>
+<p>
+Atribut alt adalah atribut untuk memberikan teks alternatif pada gambar saat gambar gagal ditampilkan. Contoh:
+</p>
+ <img src="" alt="Gambar Logo Amik Taruna Probolinggo">
+<br>
+
+ <h3>2. Atribut width dan height</h3>
+ <p>
+ Atribut width dan height adalah atribut yang digunakan untuk menentukan lebar dan tinggi dari gambar. Kita bisa menuliskan width saja maka height nya akan menyesuaikan, jika menuliskan keduanya gambar terkesan tertarik, tetapi bisa disesuaikan secara manual. Contoh:
+ </p>
+<img src="logo.png" width="300">
+<img src="logo.png" width="200" height="300">
+<br>
+
+<h3>3. Atribut style</h3>
+<p>
+Atribut style merupakan atribut untuk menambahkan style CSS pada sebuah elemen. Atribut ini sering digunakan pada gambar untuk memberikan style atau efek tertentu. Contoh:
+</p>
+<img src="bromo.jpg" style="width: 160px; border: 3px solid red; ">
+<img src="bromo.jpg" style="width: 160px; border-radius: 10%; ">
+<img src="bromo.jpg" style="width: 100px; height: 100px; border-radius: 100% ">
+<br>
+
+<h3>4. Atribut title</h3>
+<p>
+Atribut title merupakan atribut untuk menambahkan nama untuk gambar. Contoh:
+</p>
+<img src="logo.png" width="200" title="Logo Amik Taruna Probolinggo">
+<br>
+
+<h2>Membuat Gambar Background</h2>
+Agar gambar bisa ditampilkan sebagai background, maka kita harus menggunakan CSS dengan atribut background-image lalu diisi dengan URL dari gambar. Atribut tersebut diisi pada tag body.
+<br>
+
+<h2>Membuat Link dengan Gambar</h2>
+<p>
+Cara membuat link dengan gambar adalah dengan menggabungkan tag a dan tag img. Tag a harus mengapit tag img. Contoh:
+</p>
+	<a href="https://instagram.com/anisnhams"><img src="instagram.png" width="50"></a>
+    <a href="https://facebook.com/Anisnhamsiyah"><img src="fb.png" width="50" style="border-radius: 20%;border-color: white; margin-right: 30px; border: 2px "></a>
+
+</body>
+</html>
